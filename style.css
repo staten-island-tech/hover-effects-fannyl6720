@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-effect{
+  margin: 0;
+  padding: 0;
+  background-image: url("./media/honey.jpg");
+  background-position: center;
+  color: transparent;
+  font-size: 8rem;
+   -webkit-background-clip-path: text; 
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;  
+}

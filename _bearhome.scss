@@ -1,0 +1,28 @@
+@import "./variables";
+.explore {
+    height: 45rem;
+    position: relative;
+}
+.bearshome {
+    height: 40rem;
+    clip-path: circle();
+    transition: all 0.3%;
+}
+.bears-header {
+    font-size: 3rem;
+    opacity: 1;
+    color: grey;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+    transition: all 0.3%;
+    text-transform: uppercase;
+}
+.bears-hover {
+    filter: grayscale(90%);
+}
+.bears:hover .bears-header{
+    opacity: 1;
+    top: 505;
+}
