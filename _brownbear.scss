@@ -1,0 +1,11 @@
+@import "_variables.scss";
+.bear {
+    height: 20rem;
+    transition: all 0.3s;
+    border-relative: 50%;
+}
+.bear:hover {
+    border-radius: 0;
+    filter: sepia(100%);
+    transform: contrast(90%);
+}
