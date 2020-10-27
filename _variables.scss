@@ -6,9 +6,8 @@ body {
     box-sizing: border-box;
 }
 $colors: (
-    red: #ff5722,
-    white: #fff,
-    blue: #00b0ff,
+    blue: #57b3ff,
+    green:  rgb(73, 226, 180),
     black: #000,
 );
 @function color($color-name) {
