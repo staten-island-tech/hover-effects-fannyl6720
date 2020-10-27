@@ -5,10 +5,12 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
-$colors: {
-    red: #ff5722;
-    white: #fff;
-    blue: #00b0ff;
-    black: 00b0ff,
-    black: #000;
+$colors: (
+    red: #ff5722,
+    white: #fff,
+    blue: #00b0ff,
+    black: #000,
+);
+@function color($color-name) {
+    @return map-get($colors,$color-name);
 }
