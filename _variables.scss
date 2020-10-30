@@ -6,9 +6,14 @@ body {
     box-sizing: border-box;
 }
 $colors: (
-    blue: #57b3ff,
-    green:  rgb(73, 226, 180),
-    black: #000,
+   Dark cyan: #0097A7,
+   Light cyan: #B2EBF2,
+   Cyan: #00BCD4,
+   White: #FFFFFF,
+   Darker light green: #8BC34A,
+   Black:#212121,
+   Grey: #757575,
+   Light grey: #BDBDBD,
 );
 @function color($color-name) {
     @return map-get($colors,$color-name);
