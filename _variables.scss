@@ -14,6 +14,7 @@ $colors: (
    Black:#212121,
    Grey: #757575,
    Light grey: #BDBDBD,
+   Light blue: skyblue,
 );
 @function color($color-name) {
     @return map-get($colors,$color-name);
