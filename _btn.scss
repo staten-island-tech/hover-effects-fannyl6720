@@ -14,10 +14,18 @@
 }
 .btn-green {
     background-color:color(#00BCD4);
-   
     color: #fff;
 }
 .btn:hover{
     transform: translateY(-2px);
+    box-shadow: 0 10px 0.5rem rbga(color(#212121), 0.6);
+}
+
+.btn-red {
+    background-color:color(#8BC34A);
+    color: #fff;
+}
+.btn:hover{
+    transform: scale(1.25);
     box-shadow: 0 10px 0.5rem rbga(color(#212121), 0.6);
 }

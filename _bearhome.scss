@@ -1,4 +1,18 @@
 @import "./variables";
+.bearhome {
+    height: 30rem;
+    position: relative;
+}
+.bearhome-picture {
+    height: 30rem;
+}
+.bearhome-header {
+    font-size: 3rem;
+    opacity: 1;
+    color: black;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
 .explore {
     height: 45rem;
     position: relative;

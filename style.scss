@@ -10,6 +10,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #B2EBF2;
 }
 
 .btn,
@@ -29,28 +30,26 @@ body {
 .btn-green {
   color: #fff;
 }
-
 .btn:hover {
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
-  -webkit-box-shadow: 0 10px 0.5rem rbga(, 0.6);
-          box-shadow: 0 10px 0.5rem rbga(, 0.6);
+  box-shadow: 0 10px 0.5rem rbga(color(#212121), 0.6);
+          box-shadow: 0 10px, 0.5rem rbga(color(#212121), 0.6);
 }
 
-html,
-body {
-  font-size: 62.5%;
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.btn-red {
+  background-color:color(#8BC34A);
+  color: #fff;
+}
+.btn:hover{
+  transform: scale(1.25);
+  box-shadow: 0 10px 0.5rem rbga(color(#212121), 0.6);
 }
 
 .bear {
   height: 20rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border-relative: 50%;
 }
 
 .bear:hover {

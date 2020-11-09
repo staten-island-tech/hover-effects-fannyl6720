@@ -37,8 +37,73 @@ body {
 .btn:hover {
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
-  -webkit-box-shadow: 0 10px 0.5rem rbga(color(grey) 0.6);
-          box-shadow: 0 10px 0.5rem rbga(color(grey) 0.6);
+  -webkit-box-shadow: 0 10px 0.5rem rbga(, 0.6);
+          box-shadow: 0 10px 0.5rem rbga(, 0.6);
+}
+
+.btn-red {
+  color: #fff;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-box-shadow: 0 10px 0.5rem rbga(, 0.6);
+          box-shadow: 0 10px 0.5rem rbga(, 0.6);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: #00BCD4;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border-radius: 10rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-green {
+  color: #fff;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 10px 0.5rem rbga(, 0.6);
+          box-shadow: 0 10px 0.5rem rbga(, 0.6);
+}
+
+.btn-red {
+  color: #fff;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-box-shadow: 0 10px 0.5rem rbga(, 0.6);
+          box-shadow: 0 10px 0.5rem rbga(, 0.6);
 }
 
 html,
@@ -82,6 +147,129 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-effect {
+  background-image: url("basicgrid.jpg");
+  background-position: center;
+  color: transparent;
+  font-size: 8rem;
+  background-clip: text;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.text-effect::hover {
+  -webkit-transform: skewY(-10deg);
+          transform: skewY(-10deg);
+  letter-spacing: 3rem;
+}
+
+.text-effect {
+  background-image: url("basicgrid.jpg");
+  background-position: center;
+  color: transparent;
+  font-size: 8rem;
+  background-clip: text;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.text-effect::hover {
+  -webkit-transform: skewY(-10deg);
+          transform: skewY(-10deg);
+  letter-spacing: 3rem;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #B2EBF2;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: #00BCD4;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border-radius: 10rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-green {
+  color: #fff;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+  -webkit-box-shadow: 0 10px 0.5rem rbga(, 0.6);
+          box-shadow: 0 10px 0.5rem rbga(, 0.6);
+  -webkit-box-shadow: 0 10px, 0.5rem rbga(, 0.6);
+          box-shadow: 0 10px, 0.5rem rbga(, 0.6);
+}
+
+.btn-red {
+  color: #fff;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-box-shadow: 0 10px 0.5rem rbga(, 0.6);
+          box-shadow: 0 10px 0.5rem rbga(, 0.6);
+}
+
+.bear {
+  height: 20rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.bear:hover {
+  border-radius: 0;
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+  -webkit-transform: contrast(90%);
+  transform: contrast(90%);
+}
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
